@@ -1,15 +1,15 @@
 h1 a {
-    color: #FCA205;
+    color: #00FA9A;
 }
 body {
     padding-left: 15px;
 }
 h1 a {
-    color: #FCA205;
+    color: #D8BFD8;
     font-family: 'Lobster';
 }
 .page-header {
-    background-color: #ff9400;
+    background-color: #D8BFD8;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -22,6 +22,9 @@ h1 a {
 
 .content {
     margin-left: 40px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 h1, h2, h3, h4 {
